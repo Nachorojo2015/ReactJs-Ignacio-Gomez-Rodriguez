@@ -1,0 +1,446 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header.abajo{
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}
+
+header nav .menu-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+header nav .menu-logo img{
+  width: 150px;
+}
+
+header nav .menu-nav a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+header nav .purch a span{
+    margin: 10px;
+    color: white;
+}
+
+.dropdown-menu .dropdown-item{
+    color: black;
+}
+
+.dropdown-menu{
+    width: 200px;
+}
+
+.dropdown-menu img{
+  width: 100%;
+}
+
+.menu-nav .active{
+    color: orange;
+}
+
+
+
+.carousel-inner img{
+    height: 700px;
+    opacity: 0.6;
+}
+
+.adds{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.adds img{
+    width: 759px;
+}
+
+.arrival{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#botonAgregar{
+  background-color: black;
+  color: white;
+}
+
+/*Slider*/
+
+a{
+  text-decoration: none;
+}
+.Carousel{
+  width: 100%;
+  margin: auto;
+}
+.Carousel h2{
+  font-size: 26px;
+  line-height: 38px;
+  padding-bottom: 24px;
+  opacity: .9;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+/* images */
+
+.slick-list{
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: 304px;
+  padding: 10px 0px;
+  margin: 0px auto;
+  max-width: 90vw;
+  overflow: hidden;
+}
+.slick-hombre{
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  transition: .5s ease-in-out;
+}
+.slick-mujer{
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  transition: .5s ease-in-out;
+}
+
+.slick{
+  position: relative;
+  width: 275px;
+  padding: 0 18px;
+  float: left;
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+}
+.slick h4{
+  position: absolute;
+  z-index: 1;
+  font-size: 22px;
+  line-height: 23px;
+  color: black;
+  padding: 15px;
+  margin-top: 200px;
+}
+
+.slick button{
+  position: absolute;
+  z-index: 1;
+  font-size: 12px;
+  line-height: 23px;
+  color: black;
+}
+
+.slick .agregar .comprar{
+margin-top: 45px;
+color: white;
+}
+
+.slick h4 small{
+  font-size: 15px;
+  display: block;
+}
+.slick a img{
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
+  transition: .3s ease-in-out;
+}
+.slick a img:hover{
+  opacity: .85;
+}
+
+/* buttons */
+
+.slick-arrow{
+  border-radius: 30px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 4;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+  border: 0;
+  cursor: pointer;
+}
+.slick-arrow:focus{
+  outline: 0;
+}
+.slick-arrow svg{
+  width: 12px;
+  height: 100%;
+  color: rgba(0,0,0,.7);
+}
+.slick-prev{
+  left: 0px;
+}
+.slick-next{
+  right: 0px;
+}
+
+#see{
+  margin-top: 100px;
+}
+/*Fin de Slider*/
+
+.imagen-fondo{
+  margin-top: 100px;
+  background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ropa-hombre-no-tienda-espan-a-1617640228.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 17em;
+}
+
+.titulo-imagen{
+  padding: 3em;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.texto-imagen{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.clientes{
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.opinions-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.opinions-container .opinions img{
+  width: 100px;
+  border-radius: 100%;
+}
+
+.imagen-fondo2{
+  background-image: url(https://media.gq.com.mx/photos/6226652aa3cf727998b59723/16:9/w_1280,c_limit/pantalones-para-hombre-en-tendencia-primavera-2022.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 12em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.texto-fondo2{
+  font-size: 30px;
+  color: white;
+}
+
+.boton-fondo2{
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  transition: 1s;
+  padding: 10px 25px 10px 25px;
+}
+
+.boton-fondo2:hover{
+  background-color: orange;
+  transition: 1s;
+  color: white;
+}
+
+.blog-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.blog-container .blog img{
+  width: 350px;
+  border-radius: 5px;
+}
+
+.noticias{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.noticias-p{
+  text-align: center;
+}
+
+footer{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(231, 229, 229);
+  text-align: center;
+  padding: 100px;
+}
+
+footer a{
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+footer img{
+  width: 50px;
+}
+
+.sub-footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.sub-footer img{
+  width: 30px;
+  margin-left: 10px;
+}
+
+
+.contact{
+  margin-top: 100px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFBEE;
+}
+
+.contact__image-wrapper{
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__image{
+  width: 100%;
+}
+
+.contact__right-side{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding:0 7.3% 0 4.7%;
+  width: 50%;
+}
+
+.contact__title{
+  font-size: 50px;
+  font-family: 'Bellefair', serif;
+  font-weight: 400;
+  margin-bottom: 70px;
+  text-transform: uppercase;
+}
+
+.contact__form-wrapper, .contact__input-line{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact__input-line{
+  margin-bottom: 45px;
+}
+
+.contact__label{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.contact__input{
+  height: 30px;
+  outline: none;
+  padding: 5px 0;
+  border-bottom: 2px solid #121212;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  color: #121212;
+  background-color: transparent;
+}
+
+.contact__input--textarea{
+  height: 100px;
+  outline: none;
+  padding: 5px 0;
+  border-bottom: 2px solid #121212;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  color: #121212;
+  resize: none;
+  background-color: transparent;
+}
+
+.contact__submit-button{
+  padding: 18px 55px;
+  background-color: #121212;
+  border-radius: 50px;
+  color: #f2f2f2;
+  font-weight: 600;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.contact__submit-button:hover{
+  background-color: #2e2e2e;
+}
+
