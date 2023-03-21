@@ -1,0 +1,92 @@
+[
+    {
+        "id":1,
+        "nombre":"Pantalon 1",
+        "precio":1000,
+        "imagen": "https://static1.mujerhoy.com/www/multimedia/202006/14/media/cortadas/pantalon-rayas-hym-kJDF--600x900@MujerHoy.jpg"
+    },
+    {
+        "id":2,
+        "nombre":"Pantalon 2",
+        "precio":1000,
+        "imagen": "https://tizamol.com.ar/wp-content/uploads/2020/07/7c200cd7c03f60c8dbab361f64ba1d25.jpg"
+    },
+    {
+        "id":3,
+        "nombre":"Pantalon 3",
+        "precio":1000,
+        "imagen": "https://filaar.vtexassets.com/arquivos/ids/6657527-800-auto?v=638134496961230000&width=800&height=auto&aspect=true"
+    },
+    {
+        "id":4,
+        "nombre":"Pantalon 4",
+        "precio":1000,
+        "imagen": "https://d368r8jqz0fwvm.cloudfront.net/25576-product_lg/pantalon-de-mujer-sienna.jpg"
+    },
+    {
+        "id":5,
+        "nombre":"Pantalon 5",
+        "precio":1000,
+        "imagen": "https://filaar.vtexassets.com/arquivos/ids/6633019-800-auto?v=638133868507570000&width=800&height=auto&aspect=true"
+    },
+    {
+        "id":6,
+        "nombre":"Remera 1",
+        "precio":2000,
+        "imagen": "https://notilook.com.ar/wp-content/uploads/2022/07/remeras-arizona-verano-2023.jpg"
+    },
+    {
+        "id":7,
+        "nombre":"Remera 2",
+        "precio":2000,
+        "imagen": "https://taverniti.vteximg.com.br/arquivos/ids/243809-2000-2500/19701_601X1.jpg?v=637940111991030000"
+    },
+    {
+        "id":8,
+        "nombre":"Remera 3",
+        "precio":2000,
+        "imagen": "https://taverniti.vteximg.com.br/arquivos/ids/243813-2000-2500/19659_601X1.jpg?v=637940116848830000"
+    },
+    {
+        "id":9,
+        "nombre":"Remera 4",
+        "precio":2000,
+        "imagen": "https://taverniti.vteximg.com.br/arquivos/ids/243813-2000-2500/19659_601X1.jpg?v=637940116848830000"
+    },
+    {
+        "id":10,
+        "nombre":"Remera 5",
+        "precio":2000,
+        "imagen": "https://taverniti.vteximg.com.br/arquivos/ids/243813-2000-2500/19659_601X1.jpg?v=637940116848830000"
+    },
+    {
+        "id":11,
+        "nombre":"Zapato 1",
+        "precio":3000,
+        "imagen": "https://assets.jumpseller.com/store/edgarcalzado/themes/456423/options/63601894/IMG_4830.jpg?1669235193"
+    },
+    {
+        "id":12,
+        "nombre":"Zapato 2",
+        "precio":3000,
+        "imagen": "https://www.nuevoannafield.com/wp-content/uploads/2022/05/56600c428ced47bd90914abc590c167d.jpg"
+    },
+    {
+        "id":13,
+        "nombre":"Zapato 3",
+        "precio":3000,
+        "imagen": "https://img01.ztat.net/article/spp-media-p1/7557158893cc499a80a128b9f17c40a5/0a0bd26d5e29427c8ec00eb814c719b9.jpg?imwidth=1800"
+    },
+    {
+        "id":14,
+        "nombre":"Zapato 4",
+        "precio":3000,
+        "imagen": "https://i.pinimg.com/736x/7e/99/e3/7e99e31e414e55abd683d7b4ac76064a.jpg"
+    },
+    {
+        "id":15,
+        "nombre":"Zapato 5",
+        "precio":3000,
+        "imagen": "https://mariquitatrasquila.com/19442-category_list/merceditas-new.jpg"
+    }
+]

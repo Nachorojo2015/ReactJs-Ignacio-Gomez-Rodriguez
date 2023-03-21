@@ -1,7 +1,6 @@
 import Carrito from "../CartWidget/Carrito"
-import Item from "../itemListContainer/Item"
 
-const index = ({logo}) => {
+const index = ({logo, contador}) => {
     return (
   <header>
           <nav>
@@ -35,7 +34,7 @@ const index = ({logo}) => {
                       </ul>
                   </li>
                   <a href="">Blogs</a>
-                  <Item greeting = "Help"/>
+                  <a href="">Help</a>
               </div>
               <div class="purch">
                   <a href=""><span class="material-symbols-outlined">
@@ -44,7 +43,7 @@ const index = ({logo}) => {
                   <a href=""><span class="material-symbols-outlined">
                           favorite
                       </span></a>
-                  <Carrito/>
+                  <Carrito contador = {contador}/>
               </div>
           </nav>
       </header>

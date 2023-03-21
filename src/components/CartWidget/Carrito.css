@@ -2,3 +2,8 @@
     margin: 10px;
     color: orange;
 }
+
+#numero{
+    display: inline;
+    color: white;
+}
