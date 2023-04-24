@@ -1,0 +1,244 @@
+[
+    {
+        "id":1,
+        "precio":1000,
+        "nombre": "Pantalon 1",
+        "imagen": "https://taverniti.vteximg.com.br/arquivos/ids/249954-2000-2500/11220_668X2.jpg?v=637974805677300000",
+        "category": "men",
+        "cantidad": 1
+    },
+    {
+        "id":2,
+        "precio":1000,
+        "nombre": "Pantalon 2",
+        "imagen": "https://d368r8jqz0fwvm.cloudfront.net/26600-product_lg/pantalon-de-hombre-venture.jpg",
+        "category": "men",
+        "cantidad": 1
+    },
+    {
+        "id":3,
+        "precio":1000,
+        "nombre":"Pantalon 3",
+        "imagen":"https://www.aquadelta.com.ar/img/articulos/2021/06/pantalon_columbia_desmontable_silver_ridge_hombre_imagen13.jpg",
+        "category": "men",
+        "cantidad": 1
+    },
+    {
+        "id":4,
+        "precio":1000,
+        "nombre":"Pantalon 4",
+        "imagen":"https://tommyargentina.vteximg.com.br/arquivos/ids/205444-500-667/MW0MW06393_264_1.jpg?v=637950659225500000",
+        "category": "men",
+        "cantidad": 1
+    },
+    {
+        "id":5,
+        "precio":1000,
+        "nombre":"Pantalon 5",
+        "imagen":"https://madmenmagazine.com/wp-content/uploads/2018/08/tiposdepantalonesparahombre.madmenmagazine4.jpg",
+        "category": "men",
+        "cantidad": 1
+    },
+    {
+        "id":6,
+        "precio":2000,
+        "nombre":"Remera 1",
+        "imagen":"https://www.tresasesbasicos.com.ar/wp-content/uploads/2020/03/Tres-ases-2-1098.jpg",
+        "category": "men",
+        "cantidad": 1
+    },
+    {
+        "id":7,
+        "precio":2000,
+        "nombre":"Remera 2",
+        "imagen":"https://con-actitud.com.ar/wp-content/uploads/2021/05/3-4.jpg",
+        "category": "men",
+        "cantidad": 1
+    },
+    {
+        "id":8,
+        "precio":2000,
+        "nombre":"Remera 3",
+        "imagen":"https://taverniti.vteximg.com.br/arquivos/ids/199014-500-500/09234_259X1.jpg?v=636928454236200000",
+        "category": "men",
+        "cantidad": 1
+    },
+    {
+        "id":9,
+        "precio":2000,
+        "nombre":"Remera 4",
+        "imagen":"http://d3ugyf2ht6aenh.cloudfront.net/stores/001/343/531/products/blanco1-5943971455dd84e95016431176950486-640-0.webp",
+        "category": "men",
+        "cantidad": 1
+    },
+    {
+        "id":10,
+        "precio":2000,
+        "nombre":"Remera 5",
+        "imagen":"https://d3ugyf2ht6aenh.cloudfront.net/stores/001/343/531/products/negro6_3-37eaa32be7302e5d2216432852171619-640-0.webp",
+        "category": "men",
+        "cantidad": 1
+    },
+    {
+        "id":11,
+        "precio":2000,
+        "nombre":"Zapato 1",
+        "imagen":"https://imagenes.elpais.com/resizer/8YF6GnM-rh2MbBS21IfDm5pYEKY=/1960x1470/cloudfront-eu-central-1.images.arcpublishing.com/prisa/WSTCUVUHF5EGLF6MKQ4K5QNLWU.jpg",
+        "category": "men",
+        "cantidad": 1
+    },
+    {
+        "id":12,
+        "precio":2000,
+        "nombre":"Zapato 2",
+        "imagen":"https://cryptoavisos.com/oc-content/uploads/11/4051.webp",
+        "category": "men",
+        "cantidad": 1
+    },
+    {
+        "id":13,
+        "precio":2000,
+        "nombre":"Zapato 3",
+        "imagen":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dark-brown-oxford-shoes-by-scarosso-as-a-detail-of-news-photo-1660027990.jpg",
+        "category": "men",
+        "cantidad": 1
+    },
+    {
+        "id":14,
+        "precio":2000,
+        "nombre":"Zapato 4",
+        "imagen":"https://d2r9epyceweg5n.cloudfront.net/stores/001/615/286/products/monk-31-f62caa677e07d8603816191161755928-640-0.jpg",
+        "category": "men",
+        "cantidad": 1
+    },
+    {
+        "id":15,
+        "precio":2000,
+        "nombre":"Zapato 5",
+        "imagen":"https://http2.mlstatic.com/D_NQ_NP_809155-MLA50488227443_062022-O.webp",
+        "category": "men",
+        "cantidad": 1
+    },
+    {
+        "id":16,
+        "nombre":"Pantalon 1",
+        "precio":1000,
+        "imagen": "https://static1.mujerhoy.com/www/multimedia/202006/14/media/cortadas/pantalon-rayas-hym-kJDF--600x900@MujerHoy.jpg",
+        "category": "women",
+        "cantidad": 1
+    },
+    {
+        "id":17,
+        "nombre":"Pantalon 2",
+        "precio":1000,
+        "imagen": "https://tizamol.com.ar/wp-content/uploads/2020/07/7c200cd7c03f60c8dbab361f64ba1d25.jpg",
+        "category": "women",
+        "cantidad": 1
+    },
+    {
+        "id":18,
+        "nombre":"Pantalon 3",
+        "precio":1000,
+        "imagen": "https://woker.vtexassets.com/arquivos/ids/273258-800-800?v=637852772957300000&width=800&height=800&aspect=true",
+        "category": "women",
+        "cantidad": 1
+    },
+    {
+        "id":19,
+        "nombre":"Pantalon 4",
+        "precio":1000,
+        "imagen": "https://d368r8jqz0fwvm.cloudfront.net/25576-product_lg/pantalon-de-mujer-sienna.jpg",
+        "category": "women",
+        "cantidad": 1
+    },
+    {
+        "id":20,
+        "nombre":"Pantalon 5",
+        "precio":1000,
+        "imagen": "https://filaar.vtexassets.com/arquivos/ids/6633019-800-auto?v=638133868507570000&width=800&height=auto&aspect=true",
+        "category": "women",
+        "cantidad": 1
+    },
+    {
+        "id":21,
+        "nombre":"Remera 1",
+        "precio":2000,
+        "imagen": "https://notilook.com.ar/wp-content/uploads/2022/07/remeras-arizona-verano-2023.jpg",
+        "category": "women",
+        "cantidad": 1
+    },
+    {
+        "id":22,
+        "nombre":"Remera 2",
+        "precio":2000,
+        "imagen": "https://taverniti.vteximg.com.br/arquivos/ids/243809-2000-2500/19701_601X1.jpg?v=637940111991030000",
+        "category": "women",
+        "cantidad": 1
+    },
+    {
+        "id":23,
+        "nombre":"Remera 3",
+        "precio":2000,
+        "imagen": "https://taverniti.vteximg.com.br/arquivos/ids/243813-2000-2500/19659_601X1.jpg?v=637940116848830000",
+        "category": "women",
+        "cantidad": 1
+    },
+    {
+        "id":24,
+        "nombre":"Remera 4",
+        "precio":2000,
+        "imagen": "https://forever21.com.ar/media/catalog/product/cache/06cfaa02c67cf3a5c3c05d775284c631/r/e/remera-mujer-basica-logo-bordado-r2w091002-100_1_.jpg",
+        "category": "women",
+        "cantidad": 1
+    },
+    {
+        "id":25,
+        "nombre":"Remera 5",
+        "precio":2000,
+        "imagen": "https://taverniti.vteximg.com.br/arquivos/ids/244682-2000-2500/04985_682X1.jpg?v=637965293332130000",
+        "category": "women",
+        "cantidad": 1
+    },
+    {
+        "id":26,
+        "nombre":"Zapato 1",
+        "precio":3000,
+        "imagen": "https://assets.jumpseller.com/store/edgarcalzado/themes/456423/options/63601894/IMG_4830.jpg?1669235193",
+        "category": "women",
+        "cantidad": 1
+    },
+    {
+        "id":27,
+        "nombre":"Zapato 2",
+        "precio":3000,
+        "imagen": "https://www.nuevoannafield.com/wp-content/uploads/2022/05/56600c428ced47bd90914abc590c167d.jpg",
+        "category": "women",
+        "cantidad": 1
+    },
+    {
+        "id":28,
+        "nombre":"Zapato 3",
+        "precio":3000,
+        "imagen": "https://img01.ztat.net/article/spp-media-p1/7557158893cc499a80a128b9f17c40a5/0a0bd26d5e29427c8ec00eb814c719b9.jpg?imwidth=1800",
+        "category": "women",
+        "cantidad": 1
+    },
+    {
+        "id":29,
+        "nombre":"Zapato 4",
+        "precio":3000,
+        "imagen": "https://i.pinimg.com/736x/7e/99/e3/7e99e31e414e55abd683d7b4ac76064a.jpg",
+        "category": "women",
+        "cantidad": 1
+    },
+    {
+        "id":30,
+        "nombre":"Zapato 5",
+        "precio":3000,
+        "imagen": "https://mariquitatrasquila.com/19442-category_list/merceditas-new.jpg",
+        "category": "women",
+        "cantidad": 1
+    }
+
+]
+

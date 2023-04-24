@@ -1,49 +1,35 @@
+import { Link } from "react-router-dom"
 import Carrito from "../CartWidget/Carrito"
+import { useState } from "react"
+import { MdOutlineDarkMode } from 'react-icons/md'
+import { BsLightbulb } from 'react-icons/bs'
 
-const index = ({logo, contador}) => {
+const index = ({logo}) => {
+
+  const [IsDark, setIsDark] = useState(true)
+  function cambiarColor(){
+      setIsDark(!IsDark)
+      if(IsDark){
+          document.body.classList.add('dark')
+      } else {
+          document.body.classList.remove('dark')
+      }
+  }
+
     return (
   <header>
           <nav>
-              <div class="menu-logo"><img src={logo} alt=""/></div>
+              <div class="menu-logo"><Link to={"/"}><img src={logo} alt=""/></Link></div>
               <div class="menu-nav">
-                  <a class="active" href="">Home</a>
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                          aria-expanded="false">
-                          Men
-                      </a>
-                      <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">ALL CLOTHING</a></li>
-                          <li><a class="dropdown-item" href="#">Shirts</a></li>
-                          <li><a class="dropdown-item" href="#">Pants</a></li>
-                          <li><a class="dropdown-item" href="#">Shoes</a></li>
-                          <img src="img/men.jpg" alt=""/>
-                      </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                          aria-expanded="false">
-                          Women
-                      </a>
-                      <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">ALL CLOTHING</a></li>
-                          <li><a class="dropdown-item" href="#">Shirts</a></li>
-                          <li><a class="dropdown-item" href="#">Pants</a></li>
-                          <li><a class="dropdown-item" href="#">Shoes</a></li>
-                          <img src="img/women.jpg" alt=""/>
-                      </ul>
-                  </li>
-                  <a href="">Blogs</a>
-                  <a href="">Help</a>
+                <Link to={'/'}> <a class="active" href="">Home</a></Link>
+                <Link to={"/category/men"}>Men</Link>
+                <Link to={"/category/women"}>Women</Link>
+                <Link to={"/blogs"}><a href="">Blogs</a></Link> 
+                <Link to={"/help"}><a href="">Help</a></Link>
               </div>
               <div class="purch">
-                  <a href=""><span class="material-symbols-outlined">
-                          person
-                      </span></a>
-                  <a href=""><span class="material-symbols-outlined">
-                          favorite
-                      </span></a>
-                  <Carrito contador = {contador}/>
+                  <Carrito/>
+                  <button onClick={cambiarColor} className="botonColor">{IsDark ? <MdOutlineDarkMode/> : <BsLightbulb/>}</button>
               </div>
           </nav>
       </header>

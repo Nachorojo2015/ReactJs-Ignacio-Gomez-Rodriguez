@@ -1,10 +1,21 @@
+import { Link } from 'react-router-dom'
 import './Carrito.css'
+import { FaShoppingCart } from 'react-icons/fa';
+import { useContext } from 'react';
+import { CartContext } from '../../context/CartContext';
 
-const carrito = ({contador}) => {
+const carrito = () => {
+
+  const {carrito} = useContext(CartContext)
+
+  let cantidad = 0;
+  for(let i=0;i<carrito.length;i++){
+    cantidad += carrito[i].cantidad
+  }
+
   return (
-    <a href=""><span className="material-symbols-outlined" id='carro'>
-                          shopping_cart
-                      </span><p id='numero'>0</p></a>
+    <Link to={"/cart"}><FaShoppingCart className='icons'/><p id='numero'>{cantidad}</p></Link>
+
   )
 }
 
