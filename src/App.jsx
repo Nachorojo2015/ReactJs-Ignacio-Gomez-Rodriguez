@@ -1,7 +1,6 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
 
 import { Navbar } from './components/Navbar'
-import { Footer } from './components/Footer';
 import { Home } from './components/Home';
 import { Blog } from './components/Blog';
 import { Help } from './components/Help';
@@ -25,7 +24,7 @@ function Indice() {
                 <Route path='/cart' element={<Carro />}></Route>
                 <Route path='/check' element={<Checkout />}></Route>
             </Routes>
-            <Footer />
+            
         </>
     )
 }
