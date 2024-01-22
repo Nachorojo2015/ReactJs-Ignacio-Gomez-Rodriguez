@@ -43,7 +43,7 @@
         "id":6,
         "precio":2000,
         "nombre":"Remera 1",
-        "imagen":"https://www.tresasesbasicos.com.ar/wp-content/uploads/2020/03/Tres-ases-2-1098.jpg",
+        "imagen":"https://kritikalstore.com/wp-content/uploads/2020/03/REMERONES-HOMBRE.jpg",
         "category": "men",
         "cantidad": 1
     },
@@ -51,7 +51,7 @@
         "id":7,
         "precio":2000,
         "nombre":"Remera 2",
-        "imagen":"https://con-actitud.com.ar/wp-content/uploads/2021/05/3-4.jpg",
+        "imagen":"https://kritikalstore.com/wp-content/uploads/2020/03/REMERON-HOMBRE.jpg",
         "category": "men",
         "cantidad": 1
     },
@@ -59,7 +59,7 @@
         "id":8,
         "precio":2000,
         "nombre":"Remera 3",
-        "imagen":"https://taverniti.vteximg.com.br/arquivos/ids/199014-500-500/09234_259X1.jpg?v=636928454236200000",
+        "imagen":"https://sogno87.com/cdn/shop/files/IMG-513_4d6ad175-9de1-4be2-807c-8fa9b70dc3ea_900x.jpg?v=1692925929",
         "category": "men",
         "cantidad": 1
     },
@@ -67,7 +67,7 @@
         "id":9,
         "precio":2000,
         "nombre":"Remera 4",
-        "imagen":"http://d3ugyf2ht6aenh.cloudfront.net/stores/001/343/531/products/blanco1-5943971455dd84e95016431176950486-640-0.webp",
+        "imagen":"https://crownx.es/cdn/shop/files/OVERSIZE-NAVY-3.jpg?v=1704198114&width=1100",
         "category": "men",
         "cantidad": 1
     },
@@ -75,39 +75,39 @@
         "id":10,
         "precio":2000,
         "nombre":"Remera 5",
-        "imagen":"https://d3ugyf2ht6aenh.cloudfront.net/stores/001/343/531/products/negro6_3-37eaa32be7302e5d2216432852171619-640-0.webp",
+        "imagen":"https://crownx.es/cdn/shop/files/OVERSIZE-APRICOT-LATERAL-1.jpg?v=1698871469&width=1100",
         "category": "men",
         "cantidad": 1
     },
     {
         "id":11,
         "precio":2000,
-        "nombre":"Zapato 1",
-        "imagen":"https://imagenes.elpais.com/resizer/8YF6GnM-rh2MbBS21IfDm5pYEKY=/1960x1470/cloudfront-eu-central-1.images.arcpublishing.com/prisa/WSTCUVUHF5EGLF6MKQ4K5QNLWU.jpg",
+        "nombre":"Zapatilla 1",
+        "imagen":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/96de9a7efeeb440a917cad1801572318_9366/zapatillas-hoops-2.0-mid.jpg",
         "category": "men",
         "cantidad": 1
     },
     {
         "id":12,
         "precio":2000,
-        "nombre":"Zapato 2",
-        "imagen":"https://cryptoavisos.com/oc-content/uploads/11/4051.webp",
+        "nombre":"Zapatilla 2",
+        "imagen":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/bf6263d519164d7bb70ac0a4ca4453a1_9366/zapatillas-grand-court-2.0.jpg",
         "category": "men",
         "cantidad": 1
     },
     {
         "id":13,
         "precio":2000,
-        "nombre":"Zapato 3",
-        "imagen":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dark-brown-oxford-shoes-by-scarosso-as-a-detail-of-news-photo-1660027990.jpg",
+        "nombre":"Zapatilla 3",
+        "imagen":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/99c458bdb9924ba7acb0ad6600ac1668_9366/zapatillas-duramo-sl-2.0.jpg",
         "category": "men",
         "cantidad": 1
     },
     {
         "id":14,
         "precio":2000,
-        "nombre":"Zapato 4",
-        "imagen":"https://d2r9epyceweg5n.cloudfront.net/stores/001/615/286/products/monk-31-f62caa677e07d8603816191161755928-640-0.jpg",
+        "nombre":"Zapatilla 4",
+        "imagen":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/09c58ec66bef4544a859cab15c2135c8_9366/zapatillas-park-st..jpg",
         "category": "men",
         "cantidad": 1
     },
@@ -115,7 +115,7 @@
         "id":15,
         "precio":2000,
         "nombre":"Zapato 5",
-        "imagen":"https://http2.mlstatic.com/D_NQ_NP_809155-MLA50488227443_062022-O.webp",
+        "imagen":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/b6899f69def64500843831c63e1a08eb_9366/zapatillas-adi2000.jpg",
         "category": "men",
         "cantidad": 1
     },
