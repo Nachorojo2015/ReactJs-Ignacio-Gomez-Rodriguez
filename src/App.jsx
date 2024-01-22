@@ -8,6 +8,7 @@ import { ItemDetail } from './components/ItemDetail';
 import { Item } from './components/itemListContainer';
 import { Carro } from './components/Carro';
 import { Checkout } from './components/Checkout';
+import { Footer } from './components/Footer';
 
 
 function Indice() {
@@ -24,7 +25,7 @@ function Indice() {
                 <Route path='/cart' element={<Carro />}></Route>
                 <Route path='/check' element={<Checkout />}></Route>
             </Routes>
-            
+            <Footer/>
         </>
     )
 }
