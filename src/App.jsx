@@ -1,7 +1,7 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
 
 import { Navbar } from './components/Navbar'
-import Footer from './components/Footer';
+import { Footer } from './components/Footer';
 import { Home } from './components/Home';
 import { Blog } from './components/Blog';
 import { Help } from './components/Help';

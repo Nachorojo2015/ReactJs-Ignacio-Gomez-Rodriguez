@@ -6,7 +6,6 @@ import { BsPinterest } from 'react-icons/bs'
 
 const Footer = () => {
     return (
-        <>
             <footer className='w-full bg-black mt-24'>
                 <div className="w-full max-w-[1200px] mx-auto flex justify-around gap-[100px] flex-wrap p-5">
                     <div className='w-full md:w-[20%]'>
@@ -35,8 +34,7 @@ const Footer = () => {
                     <small className='text-[15px]'>© 2024 <b>GS STORE</b> - Todos los derechos Reservados</small>
                 </div>
             </footer>
-        </>
     )
 }
 
-export default Footer
+export { Footer }  
