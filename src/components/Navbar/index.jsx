@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <>
       <header>
-        <nav className="flex md:justify-around justify-between items-center p-4 bg-black">
+        <nav className="flex md:justify-around justify-between items-center p-4 bg-black z-10">
           <GiHamburgerMenu className="text-white md:hidden inline-block" id="menu-button" onClick={menuMobile} />
           <div className="w-[20%] hidden md:inline-block"><Link to={"/"}><img src="/img/logo.png" alt="" className="w-[150px]" /></Link></div>
           <div className="md:flex items-center justify-around list-none w-[30%] text-center hidden">
